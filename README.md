@@ -1,8 +1,3 @@
-Claro! Aqui está um exemplo de um arquivo `README.md` que explica como rodar uma aplicação com PHP Lumen, utilizando um banco de dados SQLite e com front-end em HTML e CSS.
-
-```markdown
-# Documentação da Aplicação Lumen com SQLite e Front-End
-
 ## Visão Geral
 
 Este documento fornece instruções para configurar e executar uma aplicação PHP Lumen com banco de dados SQLite e front-end em HTML e CSS.
