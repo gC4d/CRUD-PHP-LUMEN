@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Página</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>CRUD</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre" class="container">
+        <div class="card">
+            <h2>Sobre</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at ligula non ligula pretium maximus. In vel molestie orci. Sed a finibus mauris, vel pretium justo. Nunc finibus sed ligula eu mattis. Etiam ultrices magna sem, in sollicitudin mi gravida ac. Quisque ac quam vel ipsum fringilla sagittis vitae nec arcu. Nam blandit nulla sit amet nisi dignissim ornare. Quisque odio diam, dapibus at libero quis, aliquet consequat nunc. Aliquam erat volutpat. Ut consectetur consequat lacus a convallis. Aliquam blandit bibendum felis, nec pretium dolor fringilla ut. Pellentesque vitae sollicitudin dui. Vivamus dignissim, augue in euismod semper, velit orci maximus augue, in sagittis nulla leo non est. In vulputate ultricies pharetra. Sed hendrerit faucibus tellus a commodo. </p>
+        </div>
+    </section>
+
+    <section id="api" class="container">
+        <div class="card">
+            <h2>Apresentação da API</h2>
+            <div class="endpoint">
+                <h2><span class="method">GET</span> <span class="route">/api/users</span></h2>
+                <p>Descrição: Retorna uma lista de todos os usuários.</p>
+            </div>
+        
+            <div class="endpoint">
+                <h2><span class="method">POST</span> <span class="route">/api/users</span></h2>
+                <p>Descrição: Cria um novo usuário.</p>
+            </div>
+        
+            <div class="endpoint">
+                <h2><span class="method">GET</span> <span class="route">/api/users/{id}</span></h2>
+                <p>Descrição: Retorna detalhes de um usuário específico identificado pelo ID.</p>
+            </div>
+        
+            <div class="endpoint">
+                <h2><span class="method">PUT</span> <span class="route">/api/users/{id}</span></h2>
+                <p>Descrição: Atualiza as informações de um usuário específico identificado pelo ID.</p>
+            </div>
+        
+            <div class="endpoint">
+                <h2><span class="method">DELETE</span> <span class="route">/api/users/{id}</span></h2>
+                <p>Descrição: Remove um usuário específico identificado pelo ID.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="container">
+        <div class="card">
+            <h2>Informações de Contato</h2>
+            <p>Você pode entrar em contato conosco pelos seguintes meios:</p>
+            <ul>
+                <li>Email: contato@exemplo.com</li>
+                <li>Telefone: (11) 1234-5678</li>
+                <li>Endereço: Rua Exemplo, 123, São Paulo, SP</li>
+            </ul>
+        </div>
+    </section>
+
+    <center>
+        <div>
+            <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        </div>
+    </center>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
